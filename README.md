@@ -1,4 +1,4 @@
-# Orinoco #
+# Orinoco - Site e-commerce #
 
 ## Présentation du projet ##
 
