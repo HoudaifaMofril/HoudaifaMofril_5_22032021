@@ -64,6 +64,7 @@ span {
     font-size: 1.2rem;
     font-weight: 600;
 }
+
 .col-md-4 h2{
     color: rgb(102, 102, 102);
 }
@@ -74,6 +75,11 @@ span.underline_decoration{
 #order_number{
     font-size: 1.5rem;
 }
+#total_price_order{
+    font-size: 1.5rem;
+    color: #25b920;
+}
+
 #finalPrice{
     color: rgb(207, 25, 25);
 }

@@ -123,10 +123,12 @@ form.addEventListener("submit", (e) => {
 
             // Traitement pour l'obtention du numéro de commmande
             .then((datas) => {
-                const orderId = datas.orderId;
                 
+                const orderId = datas.orderId;
+                const priceTotalOrder = calculPrixPanier();
+                console.log(priceTotalOrder)
 
-                window.location.href = `confirm.html?order_number=${orderId}`;
+                window.location.href = `confirm.html?order_number=${orderId}&order_price=${priceTotalOrder}`;
 
             })
 
