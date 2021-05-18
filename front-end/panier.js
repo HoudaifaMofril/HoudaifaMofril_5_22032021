@@ -126,7 +126,6 @@ form.addEventListener("submit", (e) => {
                 
                 const orderId = datas.orderId;
                 const priceTotalOrder = calculPrixPanier();
-                console.log(priceTotalOrder)
 
                 window.location.href = `confirm.html?order_number=${orderId}&order_price=${priceTotalOrder}`;
 
