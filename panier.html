@@ -56,34 +56,34 @@
     <form class="container" method="POST" id="submitForm">
         <div class="form-group">
             <label for="prenom">Prénom :</label>
-            <input type="text" name="prenom" placeholder=" Votre Prénom " class="col-5 " minlength="2 " id="prenom " required pattern="[a-Z0-9 ]+" >
+            <input type="text" name="prenom" placeholder=" Votre Prénom " class="col-5 " id="prenom " minlength = " 2 " required pattern="^[a-zA-Z\-\s:]*$" title="2 caractéres minimum. Lettres majuscules et minuscules. Caractéres spéciaux non-acceptés ( e.g : ï , ö , ô )." >
 
         </div>
 
         <div class="form-group ">
             <label for="nom ">Nom :</label>
-            <input type="text " name="nom " placeholder="Votre Nom " class="col-5 " minlength="2 " id="nom " required pattern="[a-Z ]+">
+            <input type="text " name="nom " placeholder="Votre Nom " class="col-5 " minlength=" 2 " id="nom " required pattern="^[a-zA-Z\-\s:]*$" title="Le Nom ne doit contenir que des lettres majuscules ou minuscules. Les caractéres spéciaux ( e.g : ï , ô ) ne sont pas acceptés." >
 
 
         </div>
 
         <div class="form-group ">
             <label for="adresse ">Adresse :</label>
-            <input type="text " name="adresse " placeholder="Votre Adresse " class="col-6 " minlength="7 " id="adresse " required pattern="[a-Z0-9 ]+">
+            <input type="text " name="adresse " placeholder="Votre Adresse " class="col-6 " minlength="7 " id="adresse " required pattern="^[a-zA-Z0-9\-\s:]*$">
 
 
         </div>
 
         <div class="form-group ">
             <label for="ville ">Ville :</label>
-            <input type="text " name="ville " placeholder="Votre Ville " class="col-6 " minlength="2 " id="ville " required pattern="[a-Z ]+">
+            <input type="text " name="ville " placeholder="Votre Ville " class="col-6 " minlength="2 " id="ville " required pattern="^[a-zA-Z\-\s:]*$">
 
 
         </div>
 
         <div class="form-group ">
             <label for="email ">Email :</label>
-            <input type="email" name="email " placeholder="Votre Email " class="col-6 " id="email " required>
+            <input type="email" name="email " placeholder="Votre Email " class="col-6 " id="email " required pattern="^[a-zA-Z0-9.!#$%&’*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" title="Veuillez entrer une adresse email valide. Par exemple : nom.prenom@gmail.fr">
 
 
         </div>
