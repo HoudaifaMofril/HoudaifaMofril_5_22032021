@@ -12,6 +12,7 @@ fetch(`http://localhost:3000/api/teddies/${params.get('id')}`)
         };
     })
     .then(data => {
+        
 
         //--Variable prix pour le diviser par 100
         let priceProdUnit = (data.price / 100).toFixed(2);
@@ -73,9 +74,7 @@ fetch(`http://localhost:3000/api/teddies/${params.get('id')}`)
                     image: data.imageUrl,
                     name: data.name,
                     colors: colorElm.value,
-                    quantite: quantityElm.value,
-                    price: data.price / 100,
-                    totalPrice: data.price /100 * quantityElm.value
+                    quantite: quantityElm.value
                 };
                 cart.push(objetTabb);
 
