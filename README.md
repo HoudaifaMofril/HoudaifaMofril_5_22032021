@@ -1,5 +1,7 @@
 # Orinoco - Site e-commerce #
 
+![alt Orinoco; Site e-commerce](https://user.oc-static.com/upload/2019/09/04/15675819263013_image1.png)
+
 ## Présentation du projet ##
 
 Il s'agit ici, de  créer le MVP front pour le site e-commerce "Orinoco".
