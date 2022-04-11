@@ -20,6 +20,6 @@ Les fonctions élémentaires sont :
 
 ### Installation ###
 
-Cloner ce repo. 
-Éxecuter `npm install` à la racine du projet. 
-Éxecuter `node server`. 
+- Cloner ce repo. 
+- Éxecuter `npm install` à la racine du projet. 
+- Éxecuter `node server`. 
