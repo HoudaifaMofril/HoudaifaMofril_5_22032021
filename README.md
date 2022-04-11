@@ -14,8 +14,10 @@ Les fonctions élémentaires sont :
 
 ### Prérequis ###
 
- Node and `npm` doivent être installé localement.
+ Node et `npm` doivent être installé localement.
 
 ### Installation ###
 
-Cloner ce repo. Éxecuter `npm install` à la racine du projet. Éxecuter `node server`. 
+Cloner ce repo. 
+Éxecuter `npm install` à la racine du projet. 
+Éxecuter `node server`. 
